@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DICSIRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DICSIRSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		682AB93716D0C36E0055E1E4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 682AB93616D0C36E0055E1E4 /* Icon.png */; };
+		682AB93916D0C3790055E1E4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682AB93816D0C3790055E1E4 /* Icon@2x.png */; };
+		682AB98716D0CBE30055E1E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 682AB98616D0CBE30055E1E4 /* Default@2x.png */; };
+		682AB98916D0CD050055E1E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 682AB98816D0CD050055E1E4 /* Default.png */; };
+		684AFD7217C6309600A066A1 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684AFD7017C6309600A066A1 /* SampleViewController.m */; };
+		684AFD7317C6309600A066A1 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684AFD7117C6309600A066A1 /* SampleViewController.xib */; };
+		685D196616CBE179000BFF89 /* DICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D196416CBE179000BFF89 /* DICViewController.m */; };
+		685D196716CBE179000BFF89 /* DICViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D196516CBE179000BFF89 /* DICViewController.xib */; };
+		685D196B16CBE196000BFF89 /* SIRSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D196916CBE196000BFF89 /* SIRSViewController.m */; };
+		685D196C16CBE196000BFF89 /* SIRSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685D196A16CBE196000BFF89 /* SIRSViewController.xib */; };
+		6896D77B16CBE1E9004BC015 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6896D77A16CBE1E9004BC015 /* Default-568h@2x.png */; };
+		689EAF5E16CFC8DF0035ACAE /* QQDICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689EAF5C16CFC8DF0035ACAE /* QQDICViewController.m */; };
+		689EAF5F16CFC8DF0035ACAE /* QQDICViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689EAF5D16CFC8DF0035ACAE /* QQDICViewController.xib */; };
+		68E3F63C16CE7D9B00DDBB47 /* MatsudaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E3F63A16CE7D9B00DDBB47 /* MatsudaViewController.m */; };
+		68E3F63D16CE7D9B00DDBB47 /* MatsudaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E3F63B16CE7D9B00DDBB47 /* MatsudaViewController.xib */; };
+		68EF300B16CFB236002A08A2 /* ISTHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EF300916CFB236002A08A2 /* ISTHViewController.m */; };
+		68EF300C16CFB236002A08A2 /* ISTHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EF300A16CFB236002A08A2 /* ISTHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DICSIRSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DICSIRSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DICSIRSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DICSIRSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DICSIRS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DICSIRS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* DICSIRS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DICSIRS_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		682AB93616D0C36E0055E1E4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		682AB93816D0C3790055E1E4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		682AB98616D0CBE30055E1E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		682AB98816D0CD050055E1E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		684AFD6F17C6309600A066A1 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		684AFD7017C6309600A066A1 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		684AFD7117C6309600A066A1 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		685D196316CBE179000BFF89 /* DICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DICViewController.h; sourceTree = "<group>"; };
+		685D196416CBE179000BFF89 /* DICViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DICViewController.m; sourceTree = "<group>"; };
+		685D196516CBE179000BFF89 /* DICViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DICViewController.xib; sourceTree = "<group>"; };
+		685D196816CBE196000BFF89 /* SIRSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIRSViewController.h; sourceTree = "<group>"; };
+		685D196916CBE196000BFF89 /* SIRSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIRSViewController.m; sourceTree = "<group>"; };
+		685D196A16CBE196000BFF89 /* SIRSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SIRSViewController.xib; sourceTree = "<group>"; };
+		6896D77A16CBE1E9004BC015 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		689EAF5B16CFC8DF0035ACAE /* QQDICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQDICViewController.h; sourceTree = "<group>"; };
+		689EAF5C16CFC8DF0035ACAE /* QQDICViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQDICViewController.m; sourceTree = "<group>"; };
+		689EAF5D16CFC8DF0035ACAE /* QQDICViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QQDICViewController.xib; sourceTree = "<group>"; };
+		68E3F63916CE7D9B00DDBB47 /* MatsudaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatsudaViewController.h; sourceTree = "<group>"; };
+		68E3F63A16CE7D9B00DDBB47 /* MatsudaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatsudaViewController.m; sourceTree = "<group>"; };
+		68E3F63B16CE7D9B00DDBB47 /* MatsudaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatsudaViewController.xib; sourceTree = "<group>"; };
+		68EF300816CFB236002A08A2 /* ISTHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTHViewController.h; sourceTree = "<group>"; };
+		68EF300916CFB236002A08A2 /* ISTHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTHViewController.m; sourceTree = "<group>"; };
+		68EF300A16CFB236002A08A2 /* ISTHViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISTHViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DICSIRS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DICSIRS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* DICSIRSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DICSIRSAppDelegate.m */,
+				685D196316CBE179000BFF89 /* DICViewController.h */,
+				685D196416CBE179000BFF89 /* DICViewController.m */,
+				685D196516CBE179000BFF89 /* DICViewController.xib */,
+				685D196816CBE196000BFF89 /* SIRSViewController.h */,
+				685D196916CBE196000BFF89 /* SIRSViewController.m */,
+				685D196A16CBE196000BFF89 /* SIRSViewController.xib */,
+				68E3F63916CE7D9B00DDBB47 /* MatsudaViewController.h */,
+				68E3F63A16CE7D9B00DDBB47 /* MatsudaViewController.m */,
+				68E3F63B16CE7D9B00DDBB47 /* MatsudaViewController.xib */,
+				68EF300816CFB236002A08A2 /* ISTHViewController.h */,
+				68EF300916CFB236002A08A2 /* ISTHViewController.m */,
+				68EF300A16CFB236002A08A2 /* ISTHViewController.xib */,
+				689EAF5B16CFC8DF0035ACAE /* QQDICViewController.h */,
+				689EAF5C16CFC8DF0035ACAE /* QQDICViewController.m */,
+				689EAF5D16CFC8DF0035ACAE /* QQDICViewController.xib */,
+				684AFD6F17C6309600A066A1 /* SampleViewController.h */,
+				684AFD7017C6309600A066A1 /* SampleViewController.m */,
+				684AFD7117C6309600A066A1 /* SampleViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DICSIRS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				682AB98816D0CD050055E1E4 /* Default.png */,
+				682AB93816D0C3790055E1E4 /* Icon@2x.png */,
+				682AB93616D0C36E0055E1E4 /* Icon.png */,
+				6896D77A16CBE1E9004BC015 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* DICSIRS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				682AB98616D0CBE30055E1E4 /* Default@2x.png */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DICSIRS-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DICSIRS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DICSIRS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DICSIRS;
+			productName = DICSIRS;
+			productReference = 1D6058910D05DD3D006BFB54 /* DICSIRS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DICSIRS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DICSIRS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				685D196716CBE179000BFF89 /* DICViewController.xib in Resources */,
+				685D196C16CBE196000BFF89 /* SIRSViewController.xib in Resources */,
+				6896D77B16CBE1E9004BC015 /* Default-568h@2x.png in Resources */,
+				68E3F63D16CE7D9B00DDBB47 /* MatsudaViewController.xib in Resources */,
+				68EF300C16CFB236002A08A2 /* ISTHViewController.xib in Resources */,
+				689EAF5F16CFC8DF0035ACAE /* QQDICViewController.xib in Resources */,
+				682AB93716D0C36E0055E1E4 /* Icon.png in Resources */,
+				682AB93916D0C3790055E1E4 /* Icon@2x.png in Resources */,
+				682AB98716D0CBE30055E1E4 /* Default@2x.png in Resources */,
+				682AB98916D0CD050055E1E4 /* Default.png in Resources */,
+				684AFD7317C6309600A066A1 /* SampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DICSIRSAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				685D196616CBE179000BFF89 /* DICViewController.m in Sources */,
+				685D196B16CBE196000BFF89 /* SIRSViewController.m in Sources */,
+				68E3F63C16CE7D9B00DDBB47 /* MatsudaViewController.m in Sources */,
+				68EF300B16CFB236002A08A2 /* ISTHViewController.m in Sources */,
+				689EAF5E16CFC8DF0035ACAE /* QQDICViewController.m in Sources */,
+				684AFD7217C6309600A066A1 /* SampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DICSIRS_Prefix.pch;
+				INFOPLIST_FILE = "DICSIRS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = DICSIRS;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DICSIRS_Prefix.pch;
+				INFOPLIST_FILE = "DICSIRS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = DICSIRS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DICSIRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DICSIRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
